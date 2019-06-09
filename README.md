@@ -1,12 +1,14 @@
 ﻿# Image Defect detection 
 Image classification for defect detection, using Sparse Representation Classification[1] and other models
+(Reference :  J. Wright, A. Yang, A. Ganesh, S. Sastry, and Y. Ma:
+Robust face recognition via sparse representation, PAMI (2009))
 
 
 # Overview
 
 Deal with defect detection problem with images of the product
 Using models :
-  -  SRC (Sparse Representation-based classification)
+  -  SRC (Sparse Representation-based classification)[1]
   - SVM
   -  Random Forest  
  
@@ -56,3 +58,7 @@ $ python main.py
 ### 3. Evaluate
 - evaluator.py 
 evaluate with F1-score and Confusion Matrix
+
+# Reference
+[1] J. Wright, A. Yang, A. Ganesh, S. Sastry, and Y. Ma: Robust face recognition via sparse representation, PAMI (2009)
+
